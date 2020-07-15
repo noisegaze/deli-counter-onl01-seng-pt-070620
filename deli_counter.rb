@@ -10,6 +10,7 @@ def line(array)
 if array.length > 0 
   array.each.with_index(1) do |name,index|
     puts "The line is currently: #{index}. #{name}"
+  end 
   else
     puts "The line is currently empty."
   end
