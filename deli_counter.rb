@@ -7,7 +7,7 @@ def take_a_number(array,name)
 end   
 
 def line(array)
-  array.shift(name)
+  
   number = array.each_with_index
   if number > 0 
     puts "The line is currently: #{number+1}. #{name}"
