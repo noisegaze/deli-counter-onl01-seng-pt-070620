@@ -7,10 +7,9 @@ def take_a_number(array,name)
 end   
 
 def line(array)
-  array.shift(name)
-  number = array.each_with_index
-  if number > 0 
-    puts "The line is currently: #{number+1}. #{name}"
+if array.length > 0 
+  array.each.with_index(1) do |name,index|
+    puts "The line is currently:  #{name}"
   else
     puts "The line is currently empty."
   end
