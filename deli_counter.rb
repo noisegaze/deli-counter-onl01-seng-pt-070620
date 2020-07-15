@@ -8,6 +8,7 @@ end
 
 def line(array)
 if array.length > 0 
+  statement = 
   array.each.with_index(1) do |name,index|
     puts "The line is currently: #{index}. #{name}"
   end 
