@@ -6,7 +6,7 @@ def take_a_number(array,name)
   puts "Hello, #{name}! You are number #{position+1} in line!"
 end   
 
-def line(array,name)
+def line(array)
   array.push(name)
   number = array.each_with_index
   if number > 0 
